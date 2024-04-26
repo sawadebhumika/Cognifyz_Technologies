@@ -1,0 +1,66 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="Average Cost for two">Average Cost for two:</label>
+        <input type="text" id="Average Cost for two" name="Average Cost for two" placeholder="Enter : Average Cost for two value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Votes">Votes:</label>
+        <input type="text" id="Votes" name="Votes" placeholder="Enter Votes value (float)">
+    </div>
+
+          
+  
+<div class="form-group">
+  <label for="Has Table booking">Has Table booking:</label>
+  <select id="Has Table booking" name="Has Table booking">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+  </select>
+</div>
+  
+<div class="form-group">
+  <label for="Has Online delivery">Has Online delivery:</label>
+  <select id="Has Online delivery" name="Has Online delivery">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label for="Is delivering now">Is delivering now:</label>
+  <select id="Is delivering now" name="Is delivering now">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+  </select>
+</div>
+
+<div class="form-group">
+    <label for="Price range">Price range:</label>
+    <select id="Price range" name="Price range">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="Rating text">Rating text:</label>
+    <select id="Rating text" name="Rating text">
+      <option value="Poor">Poor</option>
+      <option value="Average">Average</option>
+      <option value="Good">Good</option>
+      <option value="Very Good">Very Good</option>
+      <option value="Excellent">Excellent</option>
+      <option value="Not rated">Not rated</option>
+    </select>
+  </div>
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
