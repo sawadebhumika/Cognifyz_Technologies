@@ -1,6 +1,6 @@
-pandas
 numpy
-seaborn
+pandas
+Flask
 scikit-learn
-matplotlib
-# -e.
+seaborn
+-e .
