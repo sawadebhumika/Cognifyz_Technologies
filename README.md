@@ -1,11 +1,11 @@
 # END TO END MACHINE LEARNING PROJECT
-## Cognifyz Technologies - Machine Learning Intern
+### Cognifyz Technologies - Machine Learning Intern
 
- # Task: Predict Restaurant Ratings
+ ##### Task: Predict Restaurant Ratings
 
-# Objective: Build a machine learning model to predict the aggregate rating of a restaurant based on other features.
+#### Objective: Build a machine learning model to predict the aggregate rating of a restaurant based on other features.
 
-# Dataset information: 
+### Dataset information: 
 Restaurant ID – Unique ID provided to each restaurant
 
 Restaurant Name – Name of the Restaurant
@@ -40,7 +40,7 @@ Switch to order menu - Yes / No
 
 Price Range – Range of price food
 
-# Aggregate rating- Average rating out of 5
+#### Aggregate rating- Average rating out of 5
 
 Rating Color – A color assigned to restaurant based Aggregate rating
 
